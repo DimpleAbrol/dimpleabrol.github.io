@@ -1,0 +1,38 @@
+body{
+    background-color :rgb(51, 206, 206);
+    margin-left: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    text-shadow: 3px 3px 4px rgb(240, 248, 171);
+   
+
+}
+
+
+.Certificates{
+    margin: center;
+    float: left;
+    border: 2px solid white;
+
+}
+
+.Certificates img{
+    padding: 1.5rem;
+    filter: grayscale(100%);
+    transition: 1s;
+    background-color:teal ;
+    margin:2rem;
+}
+.Certificates img:hover {
+    filter: grayscale(0);
+    transform: scale(1.2);
+    
+
+
+}
